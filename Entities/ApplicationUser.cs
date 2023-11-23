@@ -7,5 +7,5 @@ namespace Lab_WT_Data.Entities;
 
 public class ApplicationUser : IdentityUser
 {
-
+    public byte[] AvatarImage { get; set; }
 }
